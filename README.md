@@ -56,7 +56,7 @@ It is a simple web application that allows users to manage their tasks by organi
 ![Movies List](https://github.com/Atv23/ToDo-List/blob/main/public/images/Screenshot%20(79).png)
 
 ### Responsive navbar
-![Responsive navbar](https://github.com/Atv23/ToDo-List/blob/main/public/images/Screenshot%20(780).png)
+![Responsive navbar](https://github.com/Atv23/ToDo-List/blob/main/public/images/Screenshot%20(80).png)
 
 
 ## Usage
