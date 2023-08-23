@@ -44,6 +44,21 @@ It is a simple web application that allows users to manage their tasks by organi
 
 5. Open your web browser and navigate to `http://localhost:3000` to access the TODO List app.
 
+## Screenshots
+
+### Home Page
+![Home Page](Screenshot(76).png)
+
+### Work List
+![Today's List](Screenshot(78).pn)
+
+### Movies List
+![Movies List](Screenshot(79).pn)
+
+### Responsive navbar
+![Subjects List](Screenshot(80).pn)
+
+
 ## Usage
 
 - **Homepage:** Visit `http://localhost:3000` to access the default "Today's List."
