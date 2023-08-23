@@ -47,7 +47,7 @@ It is a simple web application that allows users to manage their tasks by organi
 ## Screenshots
 
 ### Home Page
-![Home Page](Screenshot (76).png)
+![Home Page](public/images/Screenshot (76).png)
 
 ### Today's List
 ![Today's List](Screenshot (78).pn)
