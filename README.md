@@ -47,16 +47,16 @@ It is a simple web application that allows users to manage their tasks by organi
 ## Screenshots
 
 ### Home Page
-![Home Page](https://github.com/Atv23/ToDo-List/blob/main/public/images/Screenshot%20(78).png)
+![Home Page](https://github.com/Atv23/ToDo-List/blob/main/public/images/Screenshot%20(76).png)
 
 ### Today's List
 ![Today's List](https://github.com/Atv23/ToDo-List/blob/main/public/images/Screenshot%20(78).png)
 
 ### Movies List
-![Movies List](https://github.com/Atv23/ToDo-List/blob/main/public/images/Screenshot%20(78).png)
+![Movies List](https://github.com/Atv23/ToDo-List/blob/main/public/images/Screenshot%20(79).png)
 
 ### Responsive navbar
-![Responsive navbar](https://github.com/Atv23/ToDo-List/blob/main/public/images/Screenshot%20(76).png)
+![Responsive navbar](https://github.com/Atv23/ToDo-List/blob/main/public/images/Screenshot%20(780).png)
 
 
 ## Usage
