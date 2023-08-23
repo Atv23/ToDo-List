@@ -1,5 +1,14 @@
 <%- include("header") -%>
-
+    <div class="note">
+        <h2>Note:</h2>
+        <ul>
+            <li> Select the type of list from the navbar </li>
+            <li> Insert items in the list and click + to insert</li>
+            <li> Mark the checkbox to scratch off an item from list</li>
+            <li> Click on &#128465; to delete an item from list</li>
+            <li> Select mail option from navbar for any queries</li>
+        </ul>
+    </div>
     <div id="heading">
         <h1>
             <%= listTitle %>
@@ -7,23 +16,26 @@
     </div>
 
     <div class="box">
-        <table>
-            <% for(let i=0;i< items.length;i++){ %>
-                <tr>
-                    <td>
-                        <input type="checkbox">
-                        <p>
-                            <%= items[i] %>
-                        </p>
-                    </td>
-                    <td>
-                        <button class="delbtn">&#128465;</button>
-                    </td>
-
-                </tr>
-
-                <% } %>
-        </table>
+        <form action="/delete" method="POST">
+            <table>
+                <% items.forEach(function(temp) { %>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <p>
+                                <%= temp.name %>
+                            </p>
+                        </td>
+                        <td>
+                            <button type="submit" class="delbtn" value="<%= temp._id %>, <%= listTitle %>" name="todelete">&#128465;</button>
+                        </td>
+    
+                    </tr>
+    
+                    <% });%>
+            </table>
+        </form>
+        
         <form class="additem" action="/" method="POST">
             <label>Add Item</label>
             <input type="text" name="todoinput" placeholder="NEW ITEM" autocomplete="off">

@@ -7,8 +7,28 @@ html {
   font-family: 'helvetica neue';
   /* overflow-y: hidden; */
 }
+.note{
+  display:inline-block;
+  border: solid white;
+  background-color: white;
+  opacity: 70%;
+  margin-top: 4%;
+  padding: 10px;
+}
 
 #heading {
+  padding: 10px;
+  margin-left: 60%;
+  margin-top: -7%;
+  width: 380px;
+  max-width: 400px;
+  background-color: #ff64c1;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+#heading1 {
   padding: 10px;
   margin-left: 60%;
   margin-top: 4%;
@@ -21,7 +41,7 @@ html {
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 .box {
-  /* position:relative; */
+  
   max-width: 400px;
   margin-left: 60%;
   margin-top: 1%;
@@ -60,13 +80,13 @@ input[type="checkbox"] {
 p {
   display: inline;
   margin: 0;
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 20px;
   font-weight: 200;
   color: #00204a;
 }
 
-form {
+form.additem {
   text-align: center;
   margin-left: 20px;
 }
@@ -86,8 +106,11 @@ form {
   border:solid black;
   border-width: 3px;
 }
+.btn:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .delbtn{
-    margin-left: 20%;
     justify-content: end;
     min-height: 40px;
     width: 50px;
@@ -98,6 +121,10 @@ form {
     font-size: 30px;
     padding-bottom: 5px;
     border-width: 0;
+}
+.delbtn:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
 }
 input[type="text"] {
   text-align: center;
