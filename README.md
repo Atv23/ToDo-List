@@ -47,16 +47,16 @@ It is a simple web application that allows users to manage their tasks by organi
 ## Screenshots
 
 ### Home Page
-![Home Page](Screenshot(76).png)
+![Home Page](Screenshot (76).png)
 
-### Work List
-![Today's List](Screenshot(78).pn)
+### Today's List
+![Today's List](Screenshot (78).pn)
 
 ### Movies List
-![Movies List](Screenshot(79).pn)
+![Movies List](Screenshot (79).pn)
 
 ### Responsive navbar
-![Subjects List](Screenshot(80).pn)
+![Responsive navbar](Screenshot (80).pn)
 
 
 ## Usage
